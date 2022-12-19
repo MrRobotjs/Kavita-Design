@@ -1,5 +1,5 @@
 # Kavita-Design
-A Plex inspired design made in SCSS for [Kavita E-Reader](https://www.rockauto.com/en/catalog/saab,2007,9-5,2.3l+l4+turbocharged,1434411,cooling+system,coolant+reservoir,10457).
+A Plex inspired design made in SCSS for [Kavita E-Reader](https://github.com/Kareadita/Kavita).
 
 # Before
 ![Before](https://i.imgur.com/qscztG7.png)
