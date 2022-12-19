@@ -141,16 +141,24 @@
                                     /* Series Image */
                                     > div.image-container {}
                                     div {
-                                    	div:nth-child(1) {
-                                        	div:nth-child(5) {
-                                        	.rating-star {
-                                            	span {
-                                                	.star {
-                                                    	color: grey;
+                                        div:nth-child(1) {
+                                            div:nth-child(1) {
+                                                button {
+                                                    color: #000;
+                                                    span {
+                                                        display: none;
                                                     }
                                                 }
                                             }
-                                        }
+                                            div:nth-child(5) {
+                                                .rating-star {
+                                                    span {
+                                                        .star {
+                                                            color: grey;
+                                                        }
+                                                    }
+                                                }
+                                            }
                                         }
                                         div:nth-child(3) {
                                             app-series-metadata-detail {
@@ -172,11 +180,11 @@
                                                                 &[label="Language"],
                                                                 &[label="Format"],
                                                                 &[label="Publication"] {
-                                                                	&:hover {
-                                                                    	.icon-and-title { 
-                                                                        	.label {
-                                                                    			color: #fff;
-                                                                    		}
+                                                                    &:hover {
+                                                                        .icon-and-title {
+                                                                            .label {
+                                                                                color: #fff;
+                                                                            }
                                                                         }
                                                                     }
                                                                 }
@@ -193,12 +201,12 @@
                                                                         display: none;
                                                                     }
                                                                     .label {
-                                                                    	color: #ffffff99;
+                                                                        color: #ffffff99;
                                                                         transition: 250ms linear color;
                                                                         font-weight: normal;
                                                                     }
                                                                     div {
-                                                                    	padding: unset;
+                                                                        padding: unset;
                                                                     }
                                                                 }
                                                             }
